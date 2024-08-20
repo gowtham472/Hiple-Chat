@@ -1,0 +1,132 @@
+[debug] [2024-08-19T07:06:06.280Z] ----------------------------------------------------------------------
+[debug] [2024-08-19T07:06:06.309Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gowth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-08-19T07:06:06.310Z] CLI Version:   13.15.2
+[debug] [2024-08-19T07:06:06.310Z] Platform:      win32
+[debug] [2024-08-19T07:06:06.310Z] Node Version:  v19.8.1
+[debug] [2024-08-19T07:06:06.311Z] Time:          Mon Aug 19 2024 12:36:06 GMT+0530 (India Standard Time)
+[debug] [2024-08-19T07:06:06.311Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-19T07:06:06.324Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-08-19T07:06:06.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-19T07:06:06.496Z] > authorizing via signed-in user (gowtham9112006@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Hiple
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-08-19T07:06:07.054Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-08-19T07:06:07.055Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-08-19T07:06:30.856Z] Using project from CLI flag: hiple-8ff05
+[debug] [2024-08-19T07:06:30.858Z] > refreshing access token with scopes: []
+[debug] [2024-08-19T07:06:30.862Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-08-19T07:06:30.862Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:06:31.001Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-08-19T07:06:31.001Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:06:31.002Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 [none]
+[debug] [2024-08-19T07:06:32.199Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 401
+[debug] [2024-08-19T07:06:32.199Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-08-19T07:06:32.200Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-08-19T07:06:32.350Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\gowth\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\gowth\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hiple-8ff05. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-08-19T07:07:04.027Z] ----------------------------------------------------------------------
+[debug] [2024-08-19T07:07:04.029Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gowth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-19T07:07:04.029Z] CLI Version:   13.15.2
+[debug] [2024-08-19T07:07:04.030Z] Platform:      win32
+[debug] [2024-08-19T07:07:04.030Z] Node Version:  v19.8.1
+[debug] [2024-08-19T07:07:04.030Z] Time:          Mon Aug 19 2024 12:37:04 GMT+0530 (India Standard Time)
+[debug] [2024-08-19T07:07:04.030Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-19T07:07:04.106Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-19T07:07:04.106Z] > authorizing via signed-in user (gowtham9112006@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Hiple
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-08-19T07:07:33.955Z] Using project from CLI flag: hiple-8ff05
+[debug] [2024-08-19T07:07:33.957Z] > refreshing access token with scopes: []
+[debug] [2024-08-19T07:07:33.960Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-08-19T07:07:33.960Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:07:34.158Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-08-19T07:07:34.159Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:07:34.160Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 [none]
+[debug] [2024-08-19T07:07:34.322Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 401
+[debug] [2024-08-19T07:07:34.323Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-08-19T07:07:34.324Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-08-19T07:07:34.422Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\gowth\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\gowth\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project hiple-8ff05. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-08-19T07:08:30.971Z] ----------------------------------------------------------------------
+[debug] [2024-08-19T07:08:30.974Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gowth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2024-08-19T07:08:30.974Z] CLI Version:   13.15.2
+[debug] [2024-08-19T07:08:30.975Z] Platform:      win32
+[debug] [2024-08-19T07:08:30.975Z] Node Version:  v19.8.1
+[debug] [2024-08-19T07:08:30.975Z] Time:          Mon Aug 19 2024 12:38:30 GMT+0530 (India Standard Time)
+[debug] [2024-08-19T07:08:30.975Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-19T07:08:31.075Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-19T07:08:31.077Z] > authorizing via signed-in user (gowtham9112006@gmail.com)
+[debug] [2024-08-19T07:08:31.077Z] [iam] checking project hiple-8ff05 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-08-19T07:08:31.080Z] > refreshing access token with scopes: []
+[debug] [2024-08-19T07:08:31.081Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-08-19T07:08:31.081Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:08:31.267Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-08-19T07:08:31.267Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:08:31.268Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiple-8ff05:testIamPermissions [none]
+[debug] [2024-08-19T07:08:31.268Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiple-8ff05:testIamPermissions x-goog-quota-user=projects/hiple-8ff05
+[debug] [2024-08-19T07:08:31.268Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiple-8ff05:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-08-19T07:08:32.605Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiple-8ff05:testIamPermissions 401
+[debug] [2024-08-19T07:08:32.605Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hiple-8ff05:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
+[debug] [2024-08-19T07:08:32.607Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-08-19T07:08:32.607Z] > refreshing access token with scopes: []
+[debug] [2024-08-19T07:08:32.608Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-08-19T07:08:32.608Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:08:32.665Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-08-19T07:08:32.665Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-08-19T07:08:32.666Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 [none]
+[debug] [2024-08-19T07:08:32.834Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 401
+[debug] [2024-08-19T07:08:32.834Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hiple-8ff05 {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-08-19T07:08:32.834Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier

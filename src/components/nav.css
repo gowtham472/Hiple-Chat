@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Croissant+One&family=Josefin+Sans&family=Lora:wght@600&family=Merriweather:ital,wght@0,400;0,700;1,700&family=Noto+Serif:wght@500;600&family=Playfair+Display&family=Reem+Kufi+Fun:wght@700&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+
+.main{
+    display: inline-block;
+    flex-direction:row; 
+padding: 20px;
+border-radius: 20px;
+}
+.appname{
+    text-align: center;
+    display: flex;
+    justify-content:space-between ;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+}
+.header{
+    background-color: #45df37;
+    display: flex;
+    border-radius: 20px;
+    justify-content:space-between;
+}
+.signinbutton{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.obutton{
+    text-align: center;
+    margin: 20px;
+    font-weight:bold;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+    padding:8px;
+    border-radius: 12px;
+}
+.obutton:hover{
+    background-color: rgb(255, 255, 255);
+    color:dodgerblue;
+}
+.message{
+/* flex flex-center shadow-xl m-4 py-2 px-3 rounded-tl-full rounded-tr-full */
+display: flex;
+align-items: center;
+box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+margin: 30px;
+padding-top: 0.5rem;
+padding-right: 0.75rem;
+padding-bottom: 0.5rem;
+padding-left: 0.75rem;
+border-top-left-radius: 9999px;
+border-top-right-radius: 9999px;
+}
+.name{
+/* fixed mt-[-4rem] text-gray-600 text-xs */
+margin-top: -4rem;
+color: #718096;
+font-size: 0.75rem;
+}
+.sent{
+/* bg-[#395dff] text-white flex-row-reverse text-end float-right rounded-bl-full */
+background-color: #395dff;
+color: white;
+flex-direction: row-reverse;
+text-align: end;
+float: right;
+border-bottom-left-radius: 9999px;
+}
+.received{
+/* bg-[#e5e5ea] text-black float-left rounded-br-full */
+background-color: #e5e5ea;
+color: black;
+float: left;
+border-bottom-right-radius: 9999px;
+}
+.form{
+    height: 3.5rem;
+    width: 100%;
+    max-width: 628px;
+    display: flex;
+    font-size: 1.25rem;
+    position: relative;
+    bottom: 0px;
+    margin-top: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+  
+}
+@media screen and (max-width: 600px) {
+    #app{
+        height: 3.5rem;
+        width: 100%;
+        max-width: 90%;
+        display: flex;
+        font-size: 1rem;
+        position: relative;
+        bottom: 0px;
+        margin-top: 20px;
+        border: 5px solid white;
+        border-radius: 20px;
+        
+    }
+    .form{
+        height: 3.5rem;
+        width: 100%;
+        max-width: 80%;
+        display: flex;
+        font-size: 1rem;
+        position: relative;
+        bottom: 0px;
+        margin-top: 20px;
+    }
+    #app2{
+        border-radius: 20px;
+    }
+    
+}
+#app2{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.me{
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    background-color: #1f2937;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+  /* For the button element */
+#b2{
+   width:20%;
+   background-color: #45df37;
+}

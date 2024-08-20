@@ -1,0 +1,5 @@
+.main {
+    width: 100%; /* Set a maximum height for the chat */
+    overflow-y: auto;
+    color: black; /* Enable vertical scrolling */
+  }

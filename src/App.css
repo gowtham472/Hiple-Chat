@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Croissant+One&family=Josefin+Sans&family=Lora:wght@600&family=Merriweather:ital,wght@0,400;0,700;1,700&family=Noto+Serif:wght@500;600&family=Playfair+Display&family=Reem+Kufi+Fun:wght@700&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+.pass{
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+    max-height: 50%;
+    background-color: gold;
+    margin-top: 50px;
+    border-radius: 40px;;
+}
+@media screen and (max-width: 600px) {
+    .pass{
+       margin:auto;
+       width: 90%;
+       margin-top: 80px;
+    }
+}
+.wel{
+    text-align: center;
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    margin:100px;
+    text-transform: uppercase;
+    font-family: Agbalumo;
+}
+.form1{
+    background-color: rgb(0, 33, 64);
+    text-align: center;
+    display: block;
+    color: aliceblue;
+    border-radius: 20px;
+    margin:100px;
+}
+.lab{
+    color: aliceblue;
+    text-transform: uppercase;
+    padding:10px;
+    
+}
+.sub{
+   padding: 10px;
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.493);
+}
+body{
+    background-color: rgb(0, 33, 64);
+}
+.pass7{
+    text-align: center;
+    border-radius: 30px;
+    margin:10px;
+    padding: 10px;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .pass7{
+        width: 100%;
+        border-radius: 30px;
+        margin: auto;
+        height: 100%;
+    }
+    .form1{
+        padding:30px;
+        margin:30px;
+    }
+    .wel{
+        margin: 30px;
+        font-size: 30px;
+    }
+    .sub{
+        margin:10px;
+    }
+}
